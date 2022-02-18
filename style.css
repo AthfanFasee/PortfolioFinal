@@ -1,0 +1,311 @@
+
+.Skills{
+    margin-top: 100px;
+    font-size: 24px;
+    border-bottom: 3px solid #3F3FFF;
+}
+
+.SkillsSubContainer{
+    margin-top: 15px;
+    font-size: 17px;
+}
+.SkillsSub{
+    margin-bottom: 24px;
+
+}
+
+.Credentials{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.Maincontainer{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 64px;
+}
+
+.MainProjectsContainer{
+    margin-top: 64px;
+
+}
+
+.LogoAndLinks{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.text-secondary{
+    font-size: 17px;
+}
+
+.Tools{
+    font-size: 18px;
+}
+.InfoAndLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.Links{
+ display: flex;
+ flex-direction: row;
+ width: auto;
+ margin-left: 0;
+ margin-top: 20px;
+ margin-right: 20px;
+ margin-bottom: 20px;
+}
+
+
+.badge + .badge {
+    margin-left: 20px;
+}
+
+.Logo{
+    
+    height : 350px;
+    width : 300px;
+    margin-right: 45px;
+    border-radius: 5px;
+    
+}
+
+@media (max-width: 1250px) {
+    .Skills{
+        margin-top: 100px;
+        font-size: 22px;
+        border-bottom: 3px solid #3F3FFF;
+    }
+    
+    .SkillsSubContainer{
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .Credentials{
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    .LogoAndLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .Logo{
+        margin: 0;
+        margin-bottom: 20px;
+       
+    }
+
+    .InfoAndLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .Maincontainer{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .MainProjectsContainer{
+        margin-top: 64px;
+    
+    }
+    
+    .InfoAndLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .Links{
+     display: flex;
+     flex-direction: row;
+     width: auto;
+     margin-left: 0;
+     margin-top: 20px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+    }
+    
+    .Tools{
+        font-size: 17px;
+    }
+    .section-paragraph{
+        font-size: 17px;
+    }
+    
+    
+}
+
+@media (max-width: 850px) {
+    .Skills{
+        margin-top: 100px;
+        font-size: 20px;
+        border-bottom: 3px solid #3F3FFF;
+    }
+    
+    .SkillsSubContainer{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .Credentials{
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    
+    .LogoAndLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .Logo{
+        height : 300px;
+        width : 300px;       
+        margin: 0;
+        margin-bottom: 20px;
+        
+    }
+
+    .InfoAndLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Maincontainer{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    .MainProjectsContainer{
+        margin-top: 64px;
+    
+    }
+    .ProjectTitle{
+        font-size: 28px;
+    }
+    .text-secondary{
+        font-size: 13px;
+    }
+    .InfoAndLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .Links{
+     display: flex;
+     flex-direction: row;
+     width: auto;
+     margin-left: 0;
+     margin-top: 20px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+    }
+    
+    .badge{
+        font-size: 14px;
+    }
+    .Tools{
+        font-size: 14px;
+    }
+    .section-paragraph{
+        font-size: 14px;
+    }
+}
+@media (max-width: 500px) {
+    .Skills{
+        margin-top: 100px;
+        font-size: 18px;
+        border-bottom: 3px solid #3F3FFF;
+    }
+    
+    .SkillsSubContainer{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .Credentials{
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    
+    .LogoAndLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .Logo{
+        height : 250px;
+        width : 250px;       
+        margin: 0;
+        margin-bottom: 20px;
+        
+    }
+
+    .InfoAndLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Maincontainer{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .MainProjectsContainer{
+        margin-top: 64px;
+    
+    }
+    .ProjectTitle{
+        font-size: 25px;
+    }
+    .text-secondary{
+        font-size: 12px;
+    }
+    .InfoAndLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .Links{
+     display: flex;
+     flex-direction: row;
+     width: auto;
+     margin-left: 0;
+     margin-top: 20px;
+     margin-right: 10px;
+     margin-bottom: 20px;
+    }
+    
+    .badge{
+        font-size: 11px;
+    }
+    
+    .Tools{
+        font-size: 13px;
+    }
+
+    .section-paragraph{
+        font-size: 13px;
+    }
+}
