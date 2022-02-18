@@ -30,6 +30,10 @@
 
 }
 
+.ProjectName{
+    font-size: 29px;
+}
+
 .LogoAndLinks{
     display: flex;
     flex-direction: row;
@@ -43,6 +47,7 @@
 .Tools{
     font-size: 18px;
 }
+
 .InfoAndLinks{
     display: flex;
     flex-direction: column;
@@ -69,10 +74,16 @@
 .Logo{
     
     height : 350px;
-    width : 300px;
+    min-width: 300px;
+    max-width : 301px;
     margin-right: 45px;
     border-radius: 5px;
     
+}
+
+.Social{
+    height: 60px;
+    width: 60px
 }
 
 @media (max-width: 1250px) {
@@ -91,6 +102,11 @@
         margin-bottom: 15px;
         font-size: 15px;
     }
+
+    .ProjectName{
+        font-size: 27px;
+    }
+
     .LogoAndLinks{
         display: flex;
         flex-direction: column;
@@ -143,6 +159,11 @@
     .section-paragraph{
         font-size: 17px;
     }
+
+    .Social{
+        height: 50px;
+        width: 50px
+    }
     
     
 }
@@ -163,7 +184,11 @@
         margin-bottom: 15px;
         font-size: 14px;
     }
-    
+
+    .ProjectName{
+        font-size: 25px;
+    }
+
     .LogoAndLinks{
         display: flex;
         flex-direction: column;
@@ -226,6 +251,10 @@
     .section-paragraph{
         font-size: 14px;
     }
+    .Social{
+        height: 40px;
+        width: 40px
+    }
 }
 @media (max-width: 500px) {
     .Skills{
@@ -243,7 +272,11 @@
         margin-bottom: 15px;
         font-size: 13px;
     }
-    
+     
+    .ProjectName{
+        font-size: 21px;
+    }
+
     .LogoAndLinks{
         display: flex;
         flex-direction: column;
@@ -307,5 +340,10 @@
 
     .section-paragraph{
         font-size: 13px;
+    }
+
+    .Social{
+        height: 30px;
+        width: 30px
     }
 }

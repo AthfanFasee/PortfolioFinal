@@ -2058,16 +2058,8 @@ scroll-margin-top: 100px;
     margin-left: 5rem;
   }
 
-  .lg\:h-12 {
-    height: 3rem;
-  }
-
   .lg\:w-4 {
     width: 1rem;
-  }
-
-  .lg\:w-12 {
-    width: 3rem;
   }
 
   .lg\:grid-cols-2 {
