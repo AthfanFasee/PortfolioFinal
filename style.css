@@ -80,6 +80,15 @@
     border-radius: 5px;
     
 }
+.LogoFirst{
+    
+    height : 450px;
+    min-width: 300px;
+    max-width : 301px;
+    margin-right: 45px;
+    border-radius: 5px;
+    
+}
 
 .Social{
     height: 60px;
@@ -115,6 +124,11 @@
         padding: 30px;
     }
     .Logo{
+        margin: 0;
+        margin-bottom: 20px;
+       
+    }
+    .LogoFirst{
         margin: 0;
         margin-bottom: 20px;
        
@@ -203,6 +217,13 @@
         margin-bottom: 20px;
         
     }
+    .LogoFirst{
+        height : 300px;
+        width : 300px;       
+        margin: 0;
+        margin-bottom: 20px;
+        
+    }
 
     .InfoAndLinks{
         display: flex;
@@ -285,6 +306,13 @@
         padding: 10px;
     }
     .Logo{
+        height : 250px;
+        width : 250px;       
+        margin: 0;
+        margin-bottom: 20px;
+        
+    }
+    .LogoFirst{
         height : 250px;
         width : 250px;       
         margin: 0;
